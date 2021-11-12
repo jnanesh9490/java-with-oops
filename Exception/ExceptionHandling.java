@@ -16,6 +16,8 @@ public class Exception {
 		try {
 			 currentrunrate=totalrunsscored/totaloversfaced;
 			
+			System.out.println("currentrunrate="+currentrunrate);
+			
 		}
 		catch(ArithmeticException e)
 		{
@@ -25,7 +27,6 @@ public class Exception {
 		{
 			System.out.println(ne);
 		}
-		System.out.println("currentrunrate="+currentrunrate);
 		
 	}
 	
